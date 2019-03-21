@@ -5,6 +5,6 @@ public class HelloWorld {
   def lastName = "Doe"
 
   def showGreeting() {
-    return "Hello " + firstName + " " + lastName + "!";
+    return "Hello ${firstName} ${lastName}!";
   }
 }
