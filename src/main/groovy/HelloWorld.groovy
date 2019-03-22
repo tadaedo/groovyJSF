@@ -1,5 +1,5 @@
-@javax.faces.bean.ManagedBean
-public class HelloWorld {
+@javax.inject.Named(value = 'helloWorld')
+public class HelloWorld implements Serializable {
 
   def firstName = "John"
   def lastName = "Doe"
